@@ -18,12 +18,13 @@ public class Menu {
 			System.out.println("                                                  ");
 			System.out.println("**************************************************");
 			System.out.println("                                                  ");
-			System.out.println("             1 - Crie seu cadastro                ");
-			System.out.println("             2 - Adicionar livro no carrinho      ");
-			System.out.println("             3 - Listar livros                    ");
-			System.out.println("             4 - Buscar livro                     ");
-			System.out.println("             5 - Deletar livro                    ");
-			System.out.println("             6 - Sair                             ");
+			System.out.println("                                                  ");
+			System.out.println("             1 - Adicionar livro                  ");
+			System.out.println("             2 - Listar livros                    ");
+			System.out.println("             3 - Buscar livro                     ");
+			System.out.println("             4 - Deletar livro                    ");
+			System.out.println("             5 - Sair                             ");
+			System.out.println("                                                  ");
 			System.out.println("                                                  ");
 			System.out.println("**************************************************");
 			System.out.println(" Digite uma opção:                                ");
@@ -48,31 +49,26 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Crie seu cadastro \n\n");
+				System.out.println("Adicionar livro \n\n");
 				keyPress();
 				break;
 
 			case 2:
-				System.out.println("Adicionar livro no carrinho \n\n");
-				keyPress();
-				break;
-
-			case 3:
 				System.out.println("Listar livro \n\n");
 				keyPress();
 				break;
 
-			case 4:
+			case 3:
 				System.out.println("Buscar livro \n\n");
 				keyPress();
 				break;
 
-			case 5:
+			case 4:
 				System.out.println("Deletar livro \n\n");
 				keyPress();
 				break;
 				
-			case 6:
+			case 5:
 				System.out.println("Sair \n\n");
 				keyPress();
 				break;
@@ -82,7 +78,7 @@ public class Menu {
 
 			}
 
-		} while (opcao != 6);
+		} while (opcao != 5);
 	}
 
 	public static void keyPress() {
