@@ -8,7 +8,7 @@ public interface LivrariaRepository {
 
 	public void listarLivros();
 
-	public void buscarLivro(String titulo);
+	public Livro buscarLivro(String titulo);
 
 	public void deletar(String titulo);
 }

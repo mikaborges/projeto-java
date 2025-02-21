@@ -4,8 +4,8 @@ public class LivroFisico extends Livro {
 	private int numeroDePaginas;
 	private String tipoDeCapa;
 	
-	public LivroFisico(String titulo, String autor, int anoDePublicação, int numeroDePaginas, String tipoDeCapa) {
-		super(titulo, autor, anoDePublicação);
+	public LivroFisico(String titulo, String autor, int anoDePublicacao, int numeroDePaginas, String tipoDeCapa) {
+		super(titulo, autor, anoDePublicacao);
 		this.numeroDePaginas = numeroDePaginas;
 		this.tipoDeCapa = tipoDeCapa;
 	}
@@ -33,7 +33,11 @@ public class LivroFisico extends Livro {
 	public void ler() {
 		System.out.println("Lendo livro físico");
 	}
-	
+	public void visualizar() {
+		super.visualizar();
+		System.out.println("Número de páginas: " + this.numeroDePaginas);
+		System.out.println("Tipo de capa: " + this.tipoDeCapa);
+	}
 	
 	
 	
